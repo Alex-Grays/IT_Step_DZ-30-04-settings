@@ -1,0 +1,84 @@
+.navbar {
+  background-color: #2179d8;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.nav-item.active .nav-link {
+  color: white !important;
+  font-size: 17px;
+  padding-top: 7px;
+}
+
+.nav-item.active .nav-link:hover {
+  color: white !important;
+}
+
+.navbar-nav .nav-link {
+  color: #d8d8d8 !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ececec !important;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+header .fa-solid {
+  font-size: 1.5em;
+}
+
+.nav-link img {
+  width: 50px;
+  height: 50px;
+}
+
+.ta-c {
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+/* Current Date */
+.current-date {
+  text-align: center;
+}
+
+/* Custom */
+.header {
+  background-color: #bbddff;
+  border-radius: 7px;
+  color: rgb(0, 0, 148);
+  padding: 15px;
+}
+
+.card-body img {
+  min-width: 110px;
+}
+
+.card-body button {
+  min-width: 110px;
+  background-color: rgb(111, 111, 111) !important;
+}
+
+.card-body button:hover {
+  background-color: rgb(85, 85, 85) !important;
+}
+
+.card-body button:active {
+  background-color: rgb(70, 70, 70) !important;
+}
+
+/* Adaptiv */
+@media (max-width: 991px) {
+  .nav-item:hover {
+    background-color: #1687ff;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+  }
+}
