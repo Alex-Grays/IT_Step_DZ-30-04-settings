@@ -52,73 +52,77 @@
     </div>
   </div>
 
-  <!-- Form -->
-  <div class="container-fluid mt-4">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="header">
-          <div class="row">
-            <div class="col-md-2 text-center">
-              AVATAR
+  <main role="main">
+    <!-- Form -->
+    <div class="container-fluid mt-4">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="header">
+            <div class="row">
+              <div class="col-md-2 text-center">
+                AVATAR
+              </div>
+              <div class="col-md-5 text-center">
+                STUDENT INFO
+              </div>
+              <div class="col-md-5 text-center">
+                CHANGE PASSWORD
+              </div>
             </div>
-            <div class="col-md-5 text-center">
-              STUDENT INFO
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col-md-2">
+          <div class="card border-0">
+            <div class="card-body text-center">
+              <img src="img/av_256.png" class="img-fluid">
+              <label for="fileInput" style="cursor: pointer;">
+                <span class="btn btn-primary btn-block">Choose photo</span>
+                <input type="file" id="fileInput" style="display: none;">
+              </label>
             </div>
-            <div class="col-md-5 text-center">
-              CHANGE PASSWORD
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="card card-bc">
+            <div class="card-body text-center">
+              <form>
+                <div class="form-group">
+                  <input type="text" class="form-control mb-3" id="firstName" placeholder="First Name">
+                  <input type="text" class="form-control mb-3" id="last name" placeholder="Last Name">
+                  <input type="text" class="form-control mb-3" id="email" placeholder="Email">
+                  <input type="text" class="form-control mb-3" id="phone number" placeholder="Phone number">
+                  <input type="text" class="form-control mb-3" id="address" placeholder="Address">
+                  <input type="text" class="form-control mb-3" id="fblink" placeholder="FB link">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Save Changes</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="card card-bc">
+            <div class="card-body text-center">
+              <form>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="currentPassword" placeholder="Old password">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="newPassword" placeholder="New password">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="confirmPassword" placeholder="Repeat password">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Change Password</button>
+              </form>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="row mt-3">
-      <div class="col-md-2">
-        <div class="card border-0">
-          <div class="card-body text-center">
-            <img src="img/av_256.png" class="img-fluid">
-            <button class="btn btn-primary btn-block">Choose photo</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-5">
-        <div class="card border-0">
-          <div class="card-body text-center">
-            <form>
-              <div class="form-group">
-                <input type="text" class="form-control mb-3" id="firstName" placeholder="First Name">
-                <input type="text" class="form-control mb-3" id="last name" placeholder="Last Name">
-                <input type="text" class="form-control mb-3" id="email" placeholder="Email">
-                <input type="text" class="form-control mb-3" id="phone number" placeholder="Phone number">
-                <input type="text" class="form-control mb-3" id="address" placeholder="Address">
-                <input type="text" class="form-control mb-3" id="fblink" placeholder="FB link">
-              </div>
-              <button type="submit" class="btn btn-primary btn-block">Save Changes</button>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-5">
-        <div class="card border-0">
-          <div class="card-body text-center">
-            <form>
-              <div class="form-group">
-                <input type="password" class="form-control" id="currentPassword" placeholder="Old password">
-              </div>
-              <div class="form-group">
-                <input type="password" class="form-control" id="newPassword" placeholder="New password">
-              </div>
-              <div class="form-group">
-                <input type="password" class="form-control" id="confirmPassword" placeholder="Repeat password">
-              </div>
-              <button type="submit" class="btn btn-primary btn-block">Change Password</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
+  </main>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
