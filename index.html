@@ -80,10 +80,9 @@
           <div class="card border-0">
             <div class="card-body text-center">
               <img src="img/av_256.png" class="img-fluid">
-              <label for="fileInput" style="cursor: pointer;">
-                <span class="btn btn-primary btn-block">Choose photo</span>
-                <input type="file" id="fileInput" style="display: none;">
-              </label>
+              <input type="file" id="fileInput" style="display: none;">
+              <button class="btn btn-primary btn-block" onclick="chooseFile()">Choose photo</button>
+              <input type="file" id="fileInput" style="display: none;">
             </div>
           </div>
         </div>
@@ -126,6 +125,7 @@
     </div>
   </main>
 
+  <script src="script.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
